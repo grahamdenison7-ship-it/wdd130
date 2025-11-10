@@ -1,0 +1,56 @@
+
+
+
+body{
+    color:#e8eced;
+    display: 1fr 1fr 1fr;
+}
+#backimg {
+    margin: 0 auto;
+    columns: 1 / 2;
+    width: 80%;
+    border-radius: 18px;
+    border: 2px solid black;
+    background-image: url("images/christus.webp");
+    background-position: -300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px; 
+    border: 10px solid black;      
+}
+
+.apic {
+    border: 10px solid white;
+    border-radius: 150px;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin: 10px;
+}
+#President {    
+    height: 190px;
+    width: 190px;
+}
+header, main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  align-items: end;
+  margin-left:200px;
+  margin-right:200px;
+}
+h1{
+    align-items: end;
+}
+
+
+
+.b3{
+    align-items: center;
+}
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+

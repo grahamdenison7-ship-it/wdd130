@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    font-family: 'Courier New', Courier, Verdana;
+}
+header{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    color: #10c944;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: end;
+}
+nav{
+    background-color: darkgreen;
+    color: #10c944;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    
+}
+nav a{
+    color: #10c944;
+    padding:20px
+}
+nav a:hover{
+    background-color: #10c944;
+    color: black;
+}
+main{
+    background-color: black;
+    color: #10c944;
+    height: 600px;
+
+}
+footer{
+    background-color: black;
+    color: #10c944;
+    display: flex;
+}
+img{
+    height: 150px;
+}

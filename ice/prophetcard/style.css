@@ -1,0 +1,61 @@
+
+body{
+    background-color: #ffedc7;
+    
+    
+}
+
+#card {
+    max-width:33%;
+    background-color: #008db1;
+    margin:0 auto;
+    border: #004e63;
+    border-width: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    box-align:center;
+    padding: 20px;
+
+}
+header, main{
+    font-family: "Helvetica", sans-serif;
+    color: #fffffe;
+    font-weight: normal;
+    text-align: center;
+}
+footer {
+    color:#ffd783;
+    font-family: "Brush Script MT", "Nanum Brush Script", cursive;
+    text-align: center;
+    margin-bottom: 12px;
+}
+img {
+    border: 10px;
+    border: #fffffe;
+    border-style: solid;
+    border-width: 6px;
+    margin: 15px;
+    max-width: 80%;
+    height: auto;
+}
+a {
+    color: #91e4fb;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    padding: 5px;
+    font-size: 40px;
+}
+
+
+ul {
+  list-style-position: inside;
+  text-align: left;
+  margin: 10px;
+  padding-left: 60px;
+  font-size: 20px;
+}

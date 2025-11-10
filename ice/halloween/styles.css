@@ -1,0 +1,91 @@
+header{
+    background-color: orange;
+    color: black;
+    display: flex;
+    transition: transform 20s ease;
+}
+header:hover{
+    transform: scale(10);
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li{
+    margin-left: 250px;
+}
+
+main{
+    background-color: black;
+    color:orange;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+section{
+    margin:10px 200px;
+}
+footer{
+    background-color: orange;
+    color: black;
+    display: flex;
+    transition: transform 20s ease;
+}
+footer:hover{
+    transform: translate(1000px);
+
+}
+img {
+    width: 450px;
+    height: 450px;
+    transition: transform 4.2s ease;
+    
+}
+
+
+
+
+
+
+
+img:hover{
+    transform: scale(2.5); 
+    transform-origin: 70% 35%;  
+}
+
+
+
+
+
+main section:nth-of-type(3) {
+    position: absolute;
+    right: 60px;
+    top: 200px;
+    width: 200px;
+}
+
+main section:nth-of-type(2) { 
+  position: absolute;
+  top: 8%;       
+  left: 3%;       
+  width: 200px;
+}
+
+
+main section:nth-of-type(1):hover {
+    font-style: italic;
+    color: orangered;
+}
+
+main section:nth-of-type(2):hover { 
+    background-image: url(images/skull.png);
+    color:orangered;
+
+}
+
+main section:nth-of-type(3):hover {
+    background-image: url(images/skull.png);
+    color:orangered;
+}
