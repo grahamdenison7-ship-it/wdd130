@@ -5,15 +5,15 @@ body{
 header{
     background-color: black;
     height: 150px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 150px 1fr auto;
     color: #10c944;
 }
-h1{
-    text-align: center;
-}
+
 h2{
-    text-align: end;
+    margin-right: 15px;
 }
+
 nav{
     background-color: darkgreen;
     color: #10c944;
@@ -34,16 +34,59 @@ nav a:hover{
     color: black;
 }
 main{
-    background-color: black;
-    color: #10c944;
+    background-image: url(images/binary.png);
+    background-repeat: repeat;
+    background-size: contain;
+    animation: flowRight 15s linear infinite;
     height: 600px;
-
+    display: grid;
 }
+@keyframes flowRight {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1536px 0;
+  }
+}
+
+#main{
+    background-color: black;
+    margin: 70px 110px;
+    padding: 20px;
+    width: auto;
+    color: #10c944;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+#main div, #main a {
+    justify-self: center;
+    margin: auto;
+    color: #10c944; 
+}
+#main a:hover{
+    color: #41ef72;
+    font-size: 20px;
+}
+
 footer{
     background-color: black;
     color: #10c944;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: 1fr 1fr 1fr;
+    outline: 2px solid #10c944;
 }
 img{
     height: 150px;
+}
+footer img{
+    height: 250px;
+    grid-column:2/3;
+    grid-row: 1/4;
+}
+footer div{
+    margin: auto;
 }
